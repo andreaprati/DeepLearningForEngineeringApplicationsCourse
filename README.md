@@ -1,4 +1,4 @@
-# Deep Learning And Generative Models Course
+# Deep Learning for Engineering Application Course
 
 ## Setting up Pytorch environment
 
