@@ -34,7 +34,7 @@ Alternatively, you can also install torch via pip
 
 CPU
 ```
-pip3 install torch torchvision torchaudio
+pip install torch torchvision torchaudio
 ```
 
 GPU
