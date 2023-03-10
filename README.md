@@ -27,7 +27,7 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 GPU
 ```
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
 Alternatively, you can also install torch via pip
@@ -39,7 +39,7 @@ pip install torch torchvision torchaudio
 
 GPU
 ```
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 ```
 ### Enabling Conda on powershell
 
